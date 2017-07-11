@@ -1,8 +1,8 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 group :test do
-  gem 'rubocop'
-  gem 'rspec'
-  gem 'simplecov', require: false
   gem 'coveralls', require: false
+  gem 'rspec'
+  gem 'rubocop'
+  gem 'simplecov', require: false
 end
